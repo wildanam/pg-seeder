@@ -2,7 +2,6 @@ require('dotenv').config()
 const { Client } = require('pg')
 const fs = require('fs')
 
-// Replace with your DB config
 const client = new Client({
   host: process.env.PGHOST,
   user: process.env.PGUSER,
